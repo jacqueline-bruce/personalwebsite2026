@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwright:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <title>Jacqueline's Portfolio</title>
+    <title>Contact</title>
     <link rel="icon" type="./img/rainbowicon.png" href="./img/rainbowicon.png">
   </head>
   <body class="font-nunito">
@@ -35,25 +35,28 @@
                     </li>
                 </ul>                  
             </div>
-          
         </nav>
-        <!-- artwork -->
-        <div class="w-full">
-            <h1 class="text-3xl font-bold text-center py-20">Artwork</h1>
-            <div class="container flex flex-col gap-10 mx-auto">
-                <div class="container mx-auto h-full flex items-center justify-center gap-10">
-                    <img src="./img/bigselfportrait2022.jpg" alt="artwork" class="w-1/2 h-auto pl-10">
-                    <img src="./img/serena2020.jpg" alt="artwork" class="w-1/2 h-auto pr-10">
+        <!-- Contact -->
+        <div class="container mx-auto py-20">
+            <h1 class="text-3xl font-bold text-center mb-10">Contact Me</h1>
+            <p class="text-center mb-10">Feel free to reach out!</p>
+            <form class="max-w-md mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                    <input type="text" id="name" class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                 </div>
-                <div class="container mx-auto h-full flex items-center justify-center gap-10">
-                    <img src="./img/jordyn2023big (1).jpg" alt="artwork" class="w-1/2 h-auto pl-10">                       
-                    <img src="./img/moira2019big (1).jpg" alt="artwork" class="w-1/2 h-auto pr-10">      
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                    <input type="email" id="email" class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                 </div>
-                <div class="container mx-auto h-full pb-20 flex items-center justify-center gap-10">
-                    <img src="./img/selfportrait2022.jpg" alt="artwork" class="w-1/2 h-auto pl-10">
-                    <img src="./img/jordyn2022.jpg" alt="artwork" class="w-1/2 h-auto pr-10">   
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+                    <textarea id="message" rows="4" class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"></textarea>
                 </div>
-            </div>
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline">
+                    Send Message
+                </button>
+            </form>
         </div>
 
     </div>
