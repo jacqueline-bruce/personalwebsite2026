@@ -1,2 +1,2 @@
-# personalwebsite2026
-my attempt at coding my own website
+# My Website
+live at https://jacqueline-bruce.com/
