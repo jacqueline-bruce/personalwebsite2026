@@ -6,6 +6,7 @@ module.exports = {
     fontFamily: {
       nunito: ["Nunito", "sans-serif"],
       playright: ["Playwright IE", "cursive"],
+      satoshi: ["Satoshi", "sans-serif"],
     },
   },
   plugins: [],
